@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Murphy",
+    "section": "",
+    "text": "Murphy"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Stuff about me",
+    "section": "",
+    "text": "Stuff about me\nI enjoy:\n\nhiking, with my family and my fabulous labradoodle Murphy;\nyoga; and,\neating out."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hello",
+    "section": "",
+    "text": "Hello\nThis is my first Quarto webpage.\nGo to an image of Murphy.\n\n\nTest\nTesting if the TOC links change colour and font weight."
+  }
+]
