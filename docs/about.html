@@ -73,6 +73,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const logoLink = document.querySelector(".navbar-brand-logo");
+  if (logoLink) {
+    logoLink.setAttribute("target", "_blank");
+    logoLink.setAttribute("rel", "noopener noreferrer");
+  }
+});
+</script>
 
 
 <link rel="stylesheet" href="afbi.css">
@@ -85,11 +94,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="https://www.afbini.gov.uk[target=&quot;_blank&quot;]" class="navbar-brand navbar-brand-logo">
+    <a href="https://www.afbini.gov.uk" class="navbar-brand navbar-brand-logo">
     <img src="./images/afbi-white.png" alt="" class="navbar-logo light-content">
     <img src="./images/afbi-white.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="https://www.afbini.gov.uk[target=&quot;_blank&quot;]">
+    <a class="navbar-brand" href="https://www.afbini.gov.uk">
     <span class="navbar-title">Michelle Allen</span>
     </a>
   </div>
@@ -154,6 +163,7 @@ ul.task-list li input[type="checkbox"] {
 <p>I enjoy:</p>
 <ul>
 <li><p>hiking, with my family and my fabulous labradoodle <a href="./research.html#image-labradoodle">Murphy</a>;</p></li>
+<li><p>gardening;</p></li>
 <li><p>yoga; and,</p></li>
 <li><p>eating out.</p></li>
 </ul>

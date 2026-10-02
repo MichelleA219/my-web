@@ -166,10 +166,37 @@ main a:hover {
 }
 
 
-/* Change border colour of all cards */
-.card {
-  border: 1.5px solid #009895 !important;   /* your colour */
-  background-color: #F6FAFA !important;
+/* Change callout border and heading colours */
+
+.callout.callout-style-default {
+    border-left: 5px solid  #0098a5!important;
+    border-right: 1px solid  #0098a5!important;
+    border-top: 1px solid  #0098a5!important;
+    border-bottom: 1px solid  #0098a5!important;
+    border-color: #0098a5!important;
+    border-radius: 5px;
+}
+
+ 
+
+.callout.callout-style-default>div.callout-header {
+    background-color: #F4F9F9!important;
+    border-bottom: none;
+    font-weight: 600;
+    opacity: 85%;
+    font-size: .9rem;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+ 
+
+/* Target only callout-note blocks */
+
+.narrow {
+    width: 30%;           /* Set desired width (px, %, em, etc.) */
+    min-width: 350px;     /* Optional: prevent it from being too narrow */
+    max-width: 500px;     /* Optional: prevent it from being too wide */
 }
 
 

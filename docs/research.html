@@ -76,6 +76,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const logoLink = document.querySelector(".navbar-brand-logo");
+  if (logoLink) {
+    logoLink.setAttribute("target", "_blank");
+    logoLink.setAttribute("rel", "noopener noreferrer");
+  }
+});
+</script>
 
 
 <link rel="stylesheet" href="afbi.css">
@@ -88,11 +97,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="https://www.afbini.gov.uk[target=&quot;_blank&quot;]" class="navbar-brand navbar-brand-logo">
+    <a href="https://www.afbini.gov.uk" class="navbar-brand navbar-brand-logo">
     <img src="./images/afbi-white.png" alt="" class="navbar-logo light-content">
     <img src="./images/afbi-white.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="https://www.afbini.gov.uk[target=&quot;_blank&quot;]">
+    <a class="navbar-brand" href="https://www.afbini.gov.uk">
     <span class="navbar-title">Michelle Allen</span>
     </a>
   </div>
@@ -152,13 +161,43 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div class="narrow callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Click for photo tip
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><em>Hover over the image and click to enlarge</em></p>
+</div>
+</div>
+</div>
 <section id="murphy" class="level1">
 <h1>Murphy</h1>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<ul>
+<li><p>labradoodle</p></li>
+<li><p>excels at being fabulously goofy</p></li>
+<li><p>hates cats and pie charts</p></li>
+<li><p>loves long walks, rolling in mud, treats, and tummy rubs</p></li>
+</ul>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><span id="image-labradoodle"></span></p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><a href="images/labradoodle.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/labradoodle.png" class="img-fluid quarto-figure quarto-figure-left figure-img" alt="Photo of a black labradoodle with a speech bubble stating Pie charts - turning data into course work!" width="500"></a></p>
 </figure>
+</div>
+</div>
+</div>
 </div>
 
 
